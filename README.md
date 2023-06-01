@@ -2,9 +2,9 @@
 
 # Scope
 This exercise has 3 parts:
-Part 1: Database and Jupyter Notebook Set Up
-Part 2: Update the Database
-Part 3: Exploratory Analysis
+- Part 1: Database and Jupyter Notebook Set Up
+- Part 2: Update the Database
+- Part 3: Exploratory Analysis
 
 # Tools 
 MongoDB, Pandas, Python, PrettyPrint
