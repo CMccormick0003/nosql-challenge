@@ -1,18 +1,31 @@
-# nosql-challenge
+# Evaluation of Food Establishments by ratings data in a json file
 
-Instructions
-The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
+# Scope:
+This exercise has 3 parts:
 Part 1: Database and Jupyter Notebook Set Up
-Use NoSQL_setup_starter.ipynb for this section of the challenge.
+Part 2: Update the Database
+Part 3: Exploratory Analysis
 
-Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Copy the text you used to import your data from your Terminal to a markdown cell in your notebook.
+# Tools: 
+MongoDB, Pandas, Python, PrettyPrint
 
-Within your notebook, import the libraries you need: PyMongo and Pretty Print (pprint).
+# Background:  
+The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles
 
-Create an instance of the Mongo Client.
-
-Confirm that you created the database and loaded the data properly:
+# Part 1: Database and Jupyter Notebook Set Up.  
+### Notebook name: NoSQL_setup_uk_food.ipynb
+1. Begin using the NoSQL_setup_starter.ipynb 
+2. Import the data provided in the establishments.json file from your Terminal. 
+Example text to run in the terminal:  
+### mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
+3. Name the database 
+### uk_food
+4. Name the collection 
+### establishments. 
+5. Import the libraries: PyMongo and Pretty Print (pprint).
+6. Create an instance of the Mongo Client.
+7. Confirm that you created the database and loaded the data properly:
 
 List the databases you have in MongoDB. Confirm that uk_food is listed.
 List the collection(s) in the database to ensure that establishments is there.
